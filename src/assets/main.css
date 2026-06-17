@@ -1,0 +1,163 @@
+/* ===============================
+   Admin Dashboard Global Theme
+   =============================== */
+
+.wrapper-bg {
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  min-height: 100vh;
+  color: #e5e7eb;
+}
+
+.admin-dashboard-container {
+  padding-bottom: 4rem;
+}
+
+.admin-dashboard-inner {
+  max-width: 1200px;
+}
+
+/* ===============================
+   Header Section
+   =============================== */
+
+.admin-dashboard-header {
+  margin-bottom: 3rem;
+}
+
+.admin-dashboard-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  color: #93c5fd;
+  border-radius: 999px;
+  backdrop-filter: blur(8px);
+}
+
+.admin-dashboard-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+}
+
+.admin-dashboard-motto {
+  max-width: 600px;
+  font-style: italic;
+  color: #9ca3af;
+}
+
+/* ===============================
+   Card Styling
+   =============================== */
+
+.content-card {
+  background: rgba(15, 23, 42, 0.75);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ===============================
+   Table Header
+   =============================== */
+
+.admin-dashboard-table-header {
+  background: rgba(255, 255, 255, 0.03);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  letter-spacing: 0.08em;
+}
+
+/* ===============================
+   Table Styling
+   =============================== */
+
+.custom-dark-table {
+  color: #e5e7eb;
+}
+
+.custom-dark-table thead th {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #94a3b8;
+  font-size: 0.75rem;
+}
+
+.custom-dark-table tbody tr {
+  transition: all 0.25s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.admin-dashboard-movie-row:hover {
+  background: rgba(59, 130, 246, 0.08);
+  transform: scale(1.01);
+}
+
+/* ===============================
+   Table Cells
+   =============================== */
+
+.admin-dashboard-movie-id {
+  color: #64748b;
+  font-size: 0.8rem;
+}
+
+.admin-dashboard-movie-title {
+  color: #ffffff;
+}
+
+.admin-dashboard-movie-director {
+  color: #cbd5e1;
+}
+
+.admin-dashboard-movie-year {
+  color: #fbbf24;
+}
+
+.admin-dashboard-movie-description {
+  color: #d1d5db;
+  font-size: 0.9rem;
+}
+
+/* ===============================
+   Badge Genre
+   =============================== */
+
+.admin-dashboard-movie-genre .badge {
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ===============================
+   Empty State
+   =============================== */
+
+.admin-dashboard-empty-row td {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+/* ===============================
+   Utilities
+   =============================== */
+
+.text-warning-gold {
+  color: #fbbf24;
+}
+
+.font-orbitron {
+  font-family: "Orbitron", sans-serif;
+}
+
+.tracking-wider {
+  letter-spacing: 0.12em;
+}
+
+.w-30 {
+  width: 30%;
+}
